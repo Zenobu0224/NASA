@@ -8,7 +8,7 @@ from urllib3.util import Retry
 from bs4 import BeautifulSoup
 import random
 
-#user agents to rotate
+#header and user agents to rotate
 Headers=[{
                 'Connection' : "keep-alive",
                 'X-Forwarded-Proto': "https",
@@ -86,7 +86,7 @@ Headers=[{
 ]
 
 # Add local paperscraper source to path
-sys.path.insert(0, r'd:\\Documents\\scrape_pdf\\paperscraper-main')
+sys.path.insert(0, r'E:\\My Documents\\scrape_pdf\\paperscraper-main')
 
 from paperscraper.pdf import save_pdf
 
@@ -128,12 +128,10 @@ with open(input_csv, newline='', encoding='utf-8-sig') as csvfile:
                 adapter = HTTPAdapter(max_retries=retry_strategy)
                 session.mount("https://", adapter)
                 session.mount("http://", adapter)
-                headers = {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
-                }
 
                 try:
                     # Get the article page
+                    #choose random headers
                     response = session.get(article_url, headers=random.choice(Headers))
                     response.raise_for_status()
                     
