@@ -1,0 +1,182 @@
+﻿A New Era for Space Life Science: International Standards for Space Omics Processing
+A ROS-assisted calcium wave dependent on AtRBOHD and TPC1 propagates the systemic response to salt stress in Arabidopsis roots
+A comparison of unamplified and massively multiplexed PCR amplification for murine antibody repertoire sequencing
+A novel blue-light phototropic response is revealed in roots of Arabidopsis thaliana in microgravity
+A novel phototropic response to red light is revealed in microgravity
+A region of UNC-89 (obscurin) lying between two protein kinase domains is a highly elastic spring required for proper sarcomere organization
+ANN1 and ANN2 Function in Post-Phloem Sugar Transport in Root Tips to Affect Primary Root Growth
+ARG1 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight
+Acute exposure to high dose gamma-radiation results in transient activation of bone lining cells
+Age-related alterations in the sarcolemmal environment are attenuated by lifelong caloric restriction and voluntary exercise
+Apyrase inhibitors enhance the ability of diverse fungicides to inhibit the growth of different plant-pathogenic fungi
+Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster
+Asparagine biosynthesis as a mechanism of increased host lethality induced by Serratia marcescens in simulated microgravity environments
+Auxin: Shape matters
+Back pain in space and post-flight spine injury: Mechanisms and countermeasure development
+Beyond low-Earth orbit: Characterizing immune and microRNA differentials following simulated deep spaceflight conditions in mice
+Blocking SARS-CoV-2 Delta variant (B.1.617.2) spike protein receptor-binding domain binding with the ACE2 receptor of the host cell and inhibiting virus infections using human host defense peptide-conjugated graphene quantum dots
+Bone marrow leptin signaling mediates obesity-associated adipose tissue inflammation in male mice
+Bone remodeling is regulated by inner ear vestibular signals
+Bone shaft bending strength index is unaffected by exercise and unloading in mice
+Burn injury-associated MHCII(+) immune cell accumulation around lymphatic vessels of the mesentery and increased lymphatic endothelial permeability are blocked by doxycycline treatment
+Caenorhabditis elegans in microgravity: An omics perspective
+Calcium, mechanical signaling, and tip growth
+Celebrating 30 years of access to NASA space life sciences data
+Celebrating 30 years of access to NASA space life sciences data
+Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight
+Changes in Mouse Thymus and Spleen after Return from the STS-135 Mission in Space
+Characterization of Aspergillus fumigatus isolates from air and surfaces of the International Space Station
+Characterization of the Salmonella enterica serovar Typhimurium ydcI gene which encodes a conserved DNA binding protein required for full acid stress resistance
+Chimeras reveal a single lipid-interface residue that controls MscL channel kinetics as well as mechanosensitivity
+Chondrogenesis and mineralization during in vitro culture of human mesenchymal stem cells on three-dimensional woven scaffolds
+Chronic skeletal unloading of the rat femur: mechanisms and functional consequences of vascular remodeling
+Circulating miRNA spaceflight signature reveals targets for countermeasure development
+Comparative transcriptomics indicate changes in cell wall organization and stress response in seedlings during spaceflight
+Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact
+Cortical thinning and structural bone changes in non-human primates after single-fraction whole-chest irradiation
+Cultivation in space flight produces minimal alterations in the susceptibility of Bacillus subtilis cells to 72 different antibiotics and growth-inhibiting compounds
+Data for characterization of SALK_084889, a T-DNA insertion line of Arabidopsis thaliana
+Differential effects of aging and exercise on intra-abdominal adipose arteriolar function and blood flow regulation
+Drosophila parasitoids go to space: Unexpected effects of spaceflight on hosts and their parasitoids
+Drosophila parasitoids go to space: Unexpected effects of spaceflight on hosts and their parasitoids
+ERULUS is a plasma membrane-localized receptor-like kinase that specifies root hair growth by maintaining tip-focused cytoplasmic calcium oscillations
+EUK-134 ameliorates nNOS¬µ translocation and skeletal muscle fiber atrophy during short-term mechanical unloading
+Effects of Sex and Gender on Adaptation to Space: Immune System
+Effects of Skeletal Unloading on the Vasomotor Properties of the Rat Femur Principal Nutrient Artery
+Effects of Spaceflight on Cancellous and Cortical Bone in Proximal Femur in Growing Rats
+Effects of age and exercise training on coronary microvascular smooth muscle phenotype and function
+Effects of ex vivo ionizing radiation on collagen structure and whole-bone mechanical properties of mouse vertebrae
+Effects of mechanostimulation on gravitropism and signal persistence in flax roots
+Effects of skeletal unloading on the antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice
+Effects of skeletal unloading on the bone marrow antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice
+Effects of spaceflight and ground recovery on mesenteric artery and vein constrictor properties in mice
+Effects of spaceflight on the immunoglobulin repertoire of unimmunized C57BL/6 mice
+Effects of spaceflight on the muscles of the murine shoulder
+Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster
+Environmental dependence of competitive fitness in rifampin-resistant rpoB mutants of Bacillus subtilis
+Establishment and characterization of DB-1: a leptin receptor-deficient murine macrophage cell line
+Ethylene-induced flavonol accumulation in guard cells suppresses reactive oxygen species and modulates stomatal aperture
+Evaluation of in vitro macrophage differentiation during space flight
+Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade
+Exposure of Bacillus subtilis to low pressure (5 kilopascals) induces several global regulons, including those involved in the SigB-mediated general stress response
+Expression and characterization of the bacterial mechanosensitive channel MscS in Xenopus laevis oocytes
+Extracellular nucleotides elicit cytosolic free calcium oscillations in Arabidopsis
+FAIRness and usability for open-access omics data systems
+Failure to Generate Bone Marrow Adipocytes Does Not Protect Mice from Ovariectomy-Induced Osteopenia
+Fifteen days of microgravity causes growth in calvaria of mice
+Focal enhancement of the skeleton to exercise correlates to mesenchymal stem cell responsivity rather than peak external forces
+Functional consequences of radiation-induced oxidative stress in cultured neural stem cells and the brain exposed to charged particle irradiation
+Galactose-depleted xycoglucan is dysfunctional and leads to dwarfism in Arabidopsis
+GeneLab: Omics database for spaceflight experiments
+Genetic and tissue level muscle-bone interactions during unloading and reambulation
+Genomic and phenotypic characterization of Burkholderia isolates from the potable water system of the International Space Station
+Genomic characterization and radiation tolerance of Naganishia kalamii sp. nov. and Cystobasidium onofrii sp. nov. from Mars 2020 mission assembly facilities
+Growth of Carnobacterium spp. from permafrost under low pressure, temperature, and anoxic atmosphere has implications for Earth microbes on Mars
+HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis
+High atomic weight, high-energy radiation (HZE) induces transcriptional responses shared with conventional stresses in addition to a core "DSB" response specific to clastogenic treatments
+High-precision method for cyclic loading of small-animal vertebrae to assess bone quality
+Homotypic vacuole fusion requires VTI11 and is regulated by phosphoinositides
+Hyperoxia inhibits T cell activation in mice
+IRE1: ER stress sensor and cell fate executor
+Identification of critical host mitochondrion-associated genes during Ehrlichia chaffeensis infections
+In vitro generation of mechanically functional cartilage grafts based on adult human stem cells and 3D-woven poly(epsilon-caprolactone) scaffolds
+Increasing the number of unloading/reambulation cycles does not adversely impac body composition and lumbar bone mineral density but reduces tissue sensitivity
+Induction of attachment-independent biofilm formation and repression of Hfq expression by low-fluid-shear culture of Staphylococcus aureus
+Influence of gonadectomy on muscle health in micro- and partial-gravity environments in rats
+Inhibition of SARS-CoV-2 wild-type (Wuhan-Hu-1) and Delta (B.1.617.2) strains by marine sulfated glycans
+Inter-agency perspective: Translating advances in biomarker discovery and medical countermeasures development between terrestrial and space radiation environments
+Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading
+Lack of norovirus replication and histo-blood group antigen expression in 3-dimensional intestinal epithelial cells
+Lifelong wheel running exercise and mild caloric restriction attenuate nuclear EndoG in the aging plantaris muscle
+Maintenance of near normal bone mass and architecture in lethally irradiated female mice following adoptive transfer with as few as 750 purified hematopoietic stem cells
+Manipulating the permeation of charged compounds through the MscL nanovalve
+MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities
+Methylobacterium ajmalii sp. nov., isolated from the International Space Station
+Microfluidics-enabled method to identify modes of Caenorhabditis elegans paralysis in four anthelmintics
+Microgravity alters the expression of salivary proteins
+MnSOD Overexpression Reduces Fibrosis and Pro-Apoptotic Signaling in the Aging Mouse Heart
+Modeling Host-Pathogen Interactions in the Context of the Microenvironment: 3-D Cell Culture Comes of Age
+Molecular mechanisms underlying the enhanced functions of three-dimensional hepatocyte aggregates
+Multi-analyte biochip (MAB) based on all-solid-state ion-selective electrodes (ASSISE) for physiological research
+Multiparameter behavioral analyses provide insights to mechanisms of cyanide resistance in Caenorhabditis elegans
+Multiscale effects of spaceflight on murine tendon and bone
+Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice
+NASA GeneLab RNA-Seq Consensus Pipeline: Standardized Processing of Short-Read RNA-Seq Data
+NASA GeneLab RNA-Seq Consensus Pipeline: Standardized Processing of Short-Read RNA-Seq Data
+NASA open science data repository: Open science for life in space
+Natural variation in the expression of ORGANIC CATION TRANSPORTER 1 affects root length responses to cadaverine in Arabidopsis
+New device for high-throughput viability screening of flow biofilms
+New perspectives on viable microbial communities in low-biomass cleanroom environments
+Novel Organelles with Elements of Bacterial and Eukaryotic Secretion Systems Weaponize Parasites of Drosophila
+Orchestrating rapid long-distance signaling in plants with Ca2+ , ROS, and electrical signals
+Organotypic 3D cell culture models: using the rotating wall vessel to study host-pathogen interactions
+Oxygen dependency of germinating Brassica seeds
+Partial weight suspension: A novel murine model for investigating adaptation to reduced musculoskeletal loading
+Pectin methylesterification impacts the relationship between photosynthesis and plant growth
+Persistent NF-Œ∫B activation in muscle stem cells induces proliferation-independent telomere shortening
+Phenotypic characterization of an Arabidopsis T- DNA insertion line SALK_063500
+Phosphoinositides control the localization of HOPS subunit VPS41, which together with VPS33 mediates vacuole fusion in plants
+Phototropism of Arabidopsis thaliana in microgravity and fractional gravity on the International Space Station
+Phylogenomics, phenotypic, and functional traits of five novel (Earth-derived) bacterial species isolated from the International Space Station and their prevalence in metagenomes
+Phylogenomics, phenotypic, and functional traits of five novel (Earth-derived) bacterial species isolated from the International Space Station and their prevalence in metagenomes
+Plant cell proliferation and growth are altered by microgravity conditions in spaceflight
+Plasma membrane disruption (PMD) formation and repair in mechanosensitive tissues
+Plastid osmotic stress influences cell differentiation at the plant shoot apex
+Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila
+Prolonged exposure to particulate chromate inhibits RAD51 nuclear import mediator proteins
+Proteomic characterization of Aspergillus fumigatus isolated from air and surfaces of the International Space Station
+Proteomic study of microsomal proteins reveals a key role for Arabidopsis Annexin 1 in mediating heat stress-induced increase in intracellular calcium levels
+RNAseq analysis of rodent spaceflight experiments is confounded by sample collection techniques
+ROS, calcium and electric signals: Key mediators of rapid systemic signaling in plants
+Rapid phenotypic response of LSMMG-'primed' Candida albicans
+Reactivation of Latent Epstein-Barr Virus: A Comparison after Exposure to Gamma, Proton, Carbon, and Iron Radiation
+Reanalysis of the Mars500 experiment reveals common gut microbiome alterations in astronauts induced by long-duration confinement
+Recent advances in the genome mining of Aspergillus secondary metabolites (covering 2012‚Äì2018)
+Reduced Arogenate Dehydratase Expression: Ramifications for Photosynthesis and Metabolism
+Reduced Chloroplast Coverage genes from Arabidopsis thaliana help to establish the size of the chloroplast compartment
+Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis
+Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent Hypsibius dujardini genome assemblies
+Resistance of Bacillus subtilis Spore DNA to Lethal Ionizing Radiation Damage Relies Primarily on Spore Core Components and DNA Repair, with Minor Effects of Oxygen Radical Detoxification
+Roll maneuvers are essential for active reorientation of Caenorhabditis elegans in 3D media
+Routine omics collection is a golden opportunity for European human research in space and analog environments
+Salivary Gland Protein Expression after Bion-M1 and Space Shuttle STS-135 Missions
+Salt stress-induced Ca2+ waves are associated with rapid, long-distance root-to-shoot signaling in plants
+Sex differences in muscle health in simulated micro- and partial-gravity environments in rats
+Sigma S-dependent antioxidant defense protects stationary-phase Escherichia coli against the bactericidal antibiotic gentamicin
+Simulated micro-, lunar, and Martian gravities on Earth‚Äîeffects on Escherichia coli growth, phenotype, and sensitivity to antibiotics
+Skeletal tissue regulation by catalase over-expression in mitochondria
+Small changes in thermoregulation influence cancellous bone turnover balance in distal femur metaphysis in growing female mice
+Spaceflight Induces Specific Alterations in the Proteomes of Arabidopsis
+Spaceflight affects neuronal morphology and alters transcellular degradation of neuronal debris in adult Caenorhabditis elegans
+Spaceflight alters expression of microRNA during T-cell activation
+Spaceflight and hind limb unloading induce similar changes in electrical impedance characteristics of mouse gastrocnemius muscle
+Spaceflight impairs antigen-specific tolerance induction in vivo and increases inflammatory cytokines
+Spaceflight on the Bion-M1 biosatellite alters cerebral artery vasomotor and mechanical properties in mice
+Spaceflight-induced alterations in cerebral artery vasoconstrictor, mechanical, and structural properties: Implications for elevated cerebral perfusion and intracranial pressure
+Spaceflight-induced synaptic modifications within hair cells of the mammalian utricle
+Spatial and temporal characteristics of vestibular convergence
+TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis
+Telomere length assessments of muscle stem cells in rodent and human skeletal muscle sections
+The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus
+The Effect of spaceflight on mouse olfactory bulb volume, neurogenesis, and cell death indicates the protective effect of novel environment
+The MscS and MscL families of mechanosensitive channels act as microbial emergency release valves
+The Space Omics and Medical Atlas (SOMA) and international astronaut biobank
+The dynamics of protein-protein interactions between domains of MscL at the cytoplasmic-lipid interface
+The fast and the furious: Rapid long-range signaling in plants
+The importance of Earth reference controls in spaceflight-omics research: Characterization of nucleolin mutants from the Seedling Growth experiments
+The interaction of vortical flows with red cells in venous valve mimics
+The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo
+The partial weight-bearing rat model using a pelvic harness does not impact stress or hindlimb blood flow
+The vacuolar H+/Ca transporter CAX1 participates in submergence and anoxia stress responses
+To Infinity and Beyond! Human spaceflight and life science
+Toward countering muscle and bone loss with spaceflight: GSK3 as a potential target
+Transcriptional and Hormonal Regulation of Gravitropism of Woody Stems in Populus
+Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen
+Transcriptomics, NF-Œ∫B Pathway, and Their Potential Spaceflight-Related Health Consequences
+Trimeric structure of (+)-pinoresinol-forming dirigent protein at 1.95 A resolution with three isolated active sites
+Unfolded protein response in plants: one master, many questions
+Utilization of single‚Äêimage normalized difference vegetation index (SI‚ÄêNDVI) for early plant stress detection
+Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the International Space Station
+Vesicles versus Tubes: Is Endoplasmic Reticulum-Golgi Transport in Plants Fundamentally Different from Other Eukaryotes
+Vive la radior√©sistance!: Converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization
+n-3 Polyunsaturated fatty acids supplementation in peripheral artery disease: the OMEGA-PAD trial
