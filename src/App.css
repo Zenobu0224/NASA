@@ -41,6 +41,110 @@
   opacity: 0;
 }
 
+#p2-book-svg {
+  position: absolute;
+  left: 20%;
+  bottom: 10%;
+  min-width: 200px;
+  width: 20%;
+}
+#p2-tv-svg {
+  position: absolute;
+  left: 40%;
+  bottom: 20%;
+  min-width: 250px;
+  width: 30%;
+  z-index: -1;
+}
+
+#p4-sun-svg {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+  min-width: 220px;
+  width: 30%;
+  place-content: center;
+  opacity: 1;
+}
+#p4-earth-svg {
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+  min-width: 220px;
+  width: 40%;
+  z-index: -1;
+  opacity: 1;
+}
+
+#p7-tv-svg {
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+  min-width: 250px;
+  width: 40%;
+  opacity: 1;
+}
+
+#p8-luggage-svg {
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+  min-width: 250px;
+  width: 40%;
+  opacity: 1;
+}
+#p8-hand-svg {
+  position: absolute;
+  left: 25%;
+  bottom: 30%;
+  min-width: 150px;
+  width: 20%;
+  opacity: 1;
+}
+#p8-plane-svg {
+  position: absolute;
+  left: 25%;
+  bottom: 25%;
+  min-width: 250px;
+  width: 40%;
+  opacity: 1;
+}
+#p8-cloud1-svg {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  min-width: 200px;
+  width: 30%;
+  opacity: 1;
+  z-index: -1;
+}
+#p8-cloud2-svg {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  min-width: 200px;
+  width: 30%;
+  opacity: 1;
+}
+
+#p9-signal1-svg {
+  position: absolute;
+  right: 30%;
+  bottom: 60%;
+  min-width: 150px;
+  width: 15%;
+  opacity: 1;
+}
+#p9-signal2-svg {
+  position: absolute;
+  right: 37%;
+  bottom: 60%;
+  min-width: 50px;
+  width: 5%;
+  opacity: 1;
+}
+
+
 
 /*text section*/
 #landing-h1{
@@ -50,6 +154,12 @@
   color: black;
   font-weight: bold;
 }
+p {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  opacity: 1;
+}
 #p1-text{
   display: flex;
   position: absolute;
@@ -57,14 +167,38 @@
   margin: auto;
   opacity: 0;
 }
-
+/*
 #p2-text {
   position: absolute;
   text-align: center;
   margin: auto;
   opacity: 1;
 }
-
+#p4-text{
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  opacity: 1;
+}
+#p5-text{
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  opacity: 1;
+}
+#p6-text{
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  opacity: 1;
+}
+#p7-text{
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  opacity: 1;
+}
+*/
 
 /*parent containers*/
 #animation-container {
