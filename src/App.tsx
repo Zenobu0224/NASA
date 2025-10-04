@@ -11,7 +11,7 @@ function fullAnimationTimeline(){
     scrollTrigger: {
       trigger: 'body',
       start: 'top',
-      end: "95.23%",
+      end: "95.65%",
       scrub: true,
       markers: true,
       invalidateOnRefresh: true
@@ -242,6 +242,18 @@ function fullAnimationTimeline(){
   .from('#p11-aurora-svg', {
     opacity: 0
   })
+  .to('#p11-aurora-svg', {
+    opacity: 0
+  })
+  .to('#p11-cloud1-svg', {
+    opacity: 0
+  })
+  .to('#p11-cloud2-svg', {
+    opacity: 0
+  }, '<')
+  .to('#p11-text', {
+    opacity: 0
+  }, '<')
 }
 
 function initLenisSmoothScroll(){
