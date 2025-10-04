@@ -164,6 +164,31 @@
   opacity: 0;
 }
 
+#p11-cloud1-svg {
+  position: absolute;
+  left: 15% ;
+  bottom: 20%;
+  min-width: 350px;
+  width: 40%;
+  opacity: 1;
+}
+#p11-cloud2-svg {
+  position: absolute;
+  right: 15% ;
+  bottom: 20%;
+  min-width: 350px;
+  width: 40%;
+  opacity: 1;
+}
+#p11-aurora-svg {
+  position: absolute;
+  left: 15% ;
+  bottom: 15%;
+  min-width: 600px;
+  width: 70%;
+  opacity: 1;
+  z-index: -1;
+}
 
 /*text section*/
 #landing-h1{

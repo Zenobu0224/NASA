@@ -11,7 +11,7 @@ function fullAnimationTimeline(){
     scrollTrigger: {
       trigger: 'body',
       start: 'top',
-      end: "94.4%",
+      end: "95.23%",
       scrub: true,
       markers: true,
       invalidateOnRefresh: true
@@ -218,6 +218,30 @@ function fullAnimationTimeline(){
   .to('#p10-no-light-svg', {
     opacity: 1
   }, '<')
+  .to('#p10-no-light-svg', {
+    opacity: 0
+  })
+  .to('#p10-text', {
+    opacity: 0
+  }, '<')
+  .from('#p11-text', {
+    opacity: 0
+  })
+  .from('#p11-cloud1-svg', {
+    opacity: 0
+  }, '<')
+  .from('#p11-cloud2-svg', {
+    opacity: 0
+  }, '<')
+  .to('#p11-cloud1-svg', {
+    x: -350
+  })
+  .to('#p11-cloud2-svg', {
+    x: 350,
+  }, '<')
+  .from('#p11-aurora-svg', {
+    opacity: 0
+  })
 }
 
 function initLenisSmoothScroll(){
@@ -275,6 +299,10 @@ function App() {
 
         <img id="p10-light-svg" src="src/assets/p10/light.svg"></img>
         <img id="p10-no-light-svg" src="src/assets/p10/no-light.svg"></img>
+
+        <img id="p11-cloud1-svg" src="src/assets/p11/cloud.svg"></img>
+        <img id="p11-cloud2-svg" src="src/assets/p11/cloud.svg"></img>
+        <img id="p11-aurora-svg" src="src/assets/p11/aurora.svg"></img>
       </div>
 
       <div id="text-container">
@@ -318,6 +346,11 @@ function App() {
         When we landed, the town below was quiet and dark. A power outage had swept across the area.
         People explained that a solar flare had disturbed the power grid, leaving the streets without electricity.
         I realized then that space weather doesn’t just paint the sky, it shapes life on Earth.
+        </p>
+        <p id='p11-text'>
+        As darkness deepened, the clouds drifted away, and the stars came out to watch.
+        And then it happened.
+        From the edge of the world, ribbons of light unfurled — glowing green, violet, and rose, weaving and swaying in the silent night.
         </p>
       </div>
 
