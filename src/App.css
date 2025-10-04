@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+#sun-svg {
+  min-width: 150px;
+  width: 18%;
+  place-content: center;
+}
+#p1-lira-svg {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 150px;
+  width: 18%;
+}
+#p1-lira-hand-cam-svg {
+  position: absolute;
+  left: 67%;
+  bottom: -30px;
+  min-width: 150px;
+  width: 18%;
+}
+
+#animation-container {
+  position: relative;
+  flex: 8;
+  margin: 1rem;
+}
+#text-container {
+  position: relative;
+  flex: 2;
+  margin: 1rem;
+  color: black;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+  text-align: center;
+  position: fixed; 
+  top: 0;
+}
