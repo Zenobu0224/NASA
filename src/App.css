@@ -143,7 +143,26 @@
   width: 5%;
   opacity: 1;
 }
+#p9-alley-svg {
+  position: absolute;
+  left:23% ;
+  bottom: 0;
+  min-width: 350px;
+  width: 50%;
+  opacity: 1;
+}
 
+#p10-light-svg, #p10-no-light-svg {
+  position: absolute;
+  left: 17% ;
+  bottom: 0;
+  min-width: 350px;
+  width: 60%;
+  opacity: 1;
+}
+#p10-no-light-svg {
+  opacity: 0;
+}
 
 
 /*text section*/

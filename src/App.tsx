@@ -11,7 +11,7 @@ function fullAnimationTimeline(){
     scrollTrigger: {
       trigger: 'body',
       start: 'top',
-      end: "93.7%",
+      end: "94.4%",
       scrub: true,
       markers: true,
       invalidateOnRefresh: true
@@ -194,13 +194,30 @@ function fullAnimationTimeline(){
   .to('#p8-plane-svg', {
     opacity: 0
   })
-  .to('#p9-text', {
-    opacity: 0
-  }, '<')
   .to('#p9-signal2-svg', {
     opacity: 0
   }, '<')
-
+  .from('#p9-alley-svg', {
+    opacity: 0
+  }, '<')
+  .to('#p9-alley-svg', {
+    opacity: 0
+  })
+  .to('#p9-text', {
+    opacity: 0
+  }, '<')
+  .from('#p10-text', {
+    opacity: 0
+  })
+  .from('#p10-light-svg', {
+    opacity: 0
+  }, '<')
+  .to('#p10-light-svg', {
+    opacity: 0
+  })
+  .to('#p10-no-light-svg', {
+    opacity: 1
+  }, '<')
 }
 
 function initLenisSmoothScroll(){
@@ -254,6 +271,10 @@ function App() {
 
         <img id="p9-signal1-svg" src="src/assets/p9/signal1.svg"></img>
         <img id="p9-signal2-svg" src="src/assets/p9/signal2.svg"></img>
+        <img id="p9-alley-svg" src="src/assets/p9/alley.svg"></img>
+
+        <img id="p10-light-svg" src="src/assets/p10/light.svg"></img>
+        <img id="p10-no-light-svg" src="src/assets/p10/no-light.svg"></img>
       </div>
 
       <div id="text-container">
@@ -292,6 +313,11 @@ function App() {
         Then something unusual happened. The radio signal in the cockpit faded and crackled.
         The pilot calmly explained that a solar storm was interfering with communication. Space weather was making its presence known;
         It felt like the Sun was whispering to us: 'I am part of your journey too.'
+        </p>
+        <p id='p10-text'>
+        When we landed, the town below was quiet and dark. A power outage had swept across the area.
+        People explained that a solar flare had disturbed the power grid, leaving the streets without electricity.
+        I realized then that space weather doesn’t just paint the sky, it shapes life on Earth.
         </p>
       </div>
 
