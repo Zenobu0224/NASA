@@ -1,25 +1,72 @@
 @import "tailwindcss";
 
-#sun-svg {
+/*svg section*/
+#p1-sun-svg {
   min-width: 150px;
   width: 18%;
   place-content: center;
+  opacity: 1;
+}
+#p1-rain-svg {
+  min-width: 350px;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 22%;
+  z-index: -1;
+}
+#p1-stars-svg {
+  min-width: 350px;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 22%;
+  z-index: -1;
 }
 #p1-lira-svg {
   position: absolute;
-  left: 50%;
-  bottom: 0;
-  min-width: 150px;
-  width: 18%;
+  display: flex; 
+  left: 35%;
+  bottom: 5%;
+  min-width: 250px;
+  width: 25%;
+  align-self: center;
 }
-#p1-lira-hand-cam-svg {
+#p1-lira-cam-svg {
   position: absolute;
-  left: 67%;
-  bottom: -30px;
-  min-width: 150px;
-  width: 18%;
+  left: 30%;
+  bottom: 20%;
+  min-width: 130px;
+  width: 10%;
+  opacity: 0;
 }
 
+
+/*text section*/
+#landing-h1{
+  position: absolute;
+  margin: auto;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+#p1-text{
+  display: flex;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  opacity: 0;
+}
+
+#p2-text {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  opacity: 1;
+}
+
+
+/*parent containers*/
 #animation-container {
   position: relative;
   flex: 8;
@@ -27,14 +74,18 @@
 }
 #text-container {
   position: relative;
+  align-items: center;
+  justify-content: center;
   flex: 2;
   margin: 1rem;
   color: black;
+  font-size: 1.5rem;
 }
 
 #root {
   display: flex;
   flex-direction: column;
+  background-color: whitesmoke;
 
   width: 100%;
   height: 100vh;
@@ -43,3 +94,4 @@
   position: fixed; 
   top: 0;
 }
+
