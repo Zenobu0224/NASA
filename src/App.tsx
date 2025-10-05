@@ -254,6 +254,13 @@ function fullAnimationTimeline(){
   .to('#p11-text', {
     opacity: 0
   }, '<')
+  .from('#p12-camera-svg', {
+    opacity: 0,
+    y: 100
+  })
+  .from('#p12-text', {
+    opacity: 0,
+  }, '<')
 }
 
 function initLenisSmoothScroll(){
@@ -315,6 +322,8 @@ function App() {
         <img id="p11-cloud1-svg" src="src/assets/p11/cloud.svg"></img>
         <img id="p11-cloud2-svg" src="src/assets/p11/cloud.svg"></img>
         <img id="p11-aurora-svg" src="src/assets/p11/aurora.svg"></img>
+
+        <img id="p12-camera-svg" src="src/assets/p12/camera.svg"></img>
       </div>
 
       <div id="text-container">
@@ -363,6 +372,11 @@ function App() {
         As darkness deepened, the clouds drifted away, and the stars came out to watch.
         And then it happened.
         From the edge of the world, ribbons of light unfurled — glowing green, violet, and rose, weaving and swaying in the silent night.
+        </p>
+        <p id='p12-text'>
+        I lifted my camera, my heart beating fast, and clicked — once, twice, again and again.
+        Each photograph captured a story of sunlight turned into color, of science transformed into wonder.
+        My dream had finally come true.
         </p>
       </div>
 

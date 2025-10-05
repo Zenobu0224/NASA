@@ -190,6 +190,16 @@
   z-index: -1;
 }
 
+#p12-camera-svg {
+  position: absolute;
+  left: 30% ;
+  bottom: 15%;
+  min-width: 350px;
+  width: 35%;
+  opacity: 1;
+}
+
+
 /*text section*/
 #landing-h1{
   position: absolute;
