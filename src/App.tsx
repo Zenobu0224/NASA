@@ -11,7 +11,7 @@ function fullAnimationTimeline(){
     scrollTrigger: {
       trigger: 'body',
       start: 'top',
-      end: "95.65%",
+      end: "96%",
       scrub: true,
       markers: true,
       invalidateOnRefresh: true
