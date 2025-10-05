@@ -293,6 +293,7 @@ p {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 #cursor-follower {
   position: absolute;
   width: 1000px;
@@ -316,4 +317,20 @@ p {
   #cursor-follower{
     display: none
   }
+=======
+#audio-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  opacity: 0.7;
+  border-radius: 5%;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 80%);
+  width: 65px;
+}
+
+#audio-btn:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+>>>>>>> d084cd780bd90a3ebe79f47678fa1045e182ec90
 }
