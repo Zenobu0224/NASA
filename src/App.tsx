@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { ReactLenis } from 'lenis/react'
 import Lenis from 'lenis'
 import { gsap } from 'gsap'
@@ -17,281 +17,144 @@ function fullAnimationTimeline(){
       invalidateOnRefresh: true
     }
   })
-  .to('#landing-h1', {
-    opacity: 0
-  })
-  .to('#p1-lira-svg', {
-    bottom: 0,
-    left: '40%'
-  },'<')
-  .to('#p1-text', {
-    opacity: 1
-  })
-  .to('#p1-lira-cam-svg', {
-    opacity: 1
-  },'<')
-  .from('#p1-sun-svg', {
-    opacity: 0,
-    y: 100
-  })
-  .from('#p1-rain-svg', {
-    opacity: 0,
-    y: 100
-  })
-  .to('#p1-sun-svg', {
-    opacity: 0,
-    y: -100
-  }, '<')
-  .to('#p1-rain-svg', {
-    opacity: 0,
-    y: -100
-  })
-  .from('#p1-stars-svg', {
-    opacity: 0,
-    y: 100
-  }, '<')
-  .to('#p1-text', {
-    opacity: 0
-  })
-  .to('#p1-lira-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p1-lira-cam-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p1-stars-svg', {
-    opacity: 0
-  }, '<')
-  .from('#p2-text', {
-    opacity: 0
-  })
-  .from('#p2-book-svg', {
-    opacity: 0
-  }, '<')
-  .from('#p2-tv-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p2-book-svg', {
-    opacity: 0
-  })
-  .to('#p2-tv-svg', {
-    scale: 1.3,
-    x: -100
-  }, '<')
-  .to('#p2-tv-svg', {
-    opacity: 0
-  })
-  .to('#p2-text', {
-    opacity: 0
-  }, '<')
-  .from('#p4-sun-svg', {
-    opacity: 0
-  })
-  .from('#p4-text', {
-    opacity: 0
-  }, '<')
-  .from('#p4-earth-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p4-text', {
-    opacity: 0
-  })
-  .to('#p4-earth-svg', {
-    opacity: 0
-  })
-  .to('#p4-sun-svg', {
-    scale: 1.2,
-    x: 200
-  }, '<')
-  .from('#p5-text', {
-    opacity: 0
-  }, '<')
-  .to('#p5-text', {
-    opacity: 0
-  })
-  .from('#p6-text', {
-    opacity: 0
-  })
-  .to('#p4-sun-svg', {
-    opacity: 0
-  })
-  .to('#p4-earth-svg', {
-    opacity: 1,
-    scale: 1.2,
-    x: -200
-  }, '<')
-  .to('#p6-text', {
-    opacity: 0
-  })
-  .to('#p4-earth-svg', {
-    opacity: 0
-  }, '<')
-  .from('#p7-text', {
-    opacity: 0
-  })
-  .from('#p7-tv-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p7-tv-svg', {
-    opacity: 0
-  })
-  .to('#p7-text', {
-    opacity: 0
-  }, '<')
-  .from('#p8-luggage-svg', {
-    opacity: 0
-  })
-  .from('#p8-hand-svg', {
-    x:-100,
-    y:-100,
-    opacity: 0
-  }, '<')
-  .from('#p8-text', {
-    opacity: 0
-  }, '<')
-  .to('#p8-luggage-svg', {
-    opacity: 0
-  })
-  .to('#p8-hand-svg', {
-    opacity: 0
-  }, '<')
-  .from('#p8-plane-svg', {
-    opacity: 0
-  }, '<')
-  .from('#p8-cloud1-svg', {
-    opacity: 0
-  }, '<')
-  .from('#p8-cloud2-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p8-cloud1-svg', {
-    x: -100,
-    opacity: 0
-  })
-  .to('#p8-cloud2-svg', {
-    x: -300,
-    opacity: 0
-  }, '<')
-  .to('#p8-text', {
-    opacity: 0
-  })
-  .from('#p9-text', {
-    opacity: 0
-  })
-  .to('#p8-plane-svg', {
-    scale: 0.8,
-    y: 50
-  }, '<')
-  .from('#p9-signal1-svg', {
-    opacity: 0
-  })
-  .to('#p9-signal1-svg', {
-    opacity: 0
-  })
-  .from('#p9-signal2-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p8-plane-svg', {
-    opacity: 0
-  })
-  .to('#p9-signal2-svg', {
-    opacity: 0
-  }, '<')
-  .from('#p9-alley-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p9-alley-svg', {
-    opacity: 0
-  })
-  .to('#p9-text', {
-    opacity: 0
-  }, '<')
-  .from('#p10-text', {
-    opacity: 0
-  })
-  .from('#p10-light-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p10-light-svg', {
-    opacity: 0
-  })
-  .to('#p10-no-light-svg', {
-    opacity: 1
-  }, '<')
-  .to('#p10-no-light-svg', {
-    opacity: 0
-  })
-  .to('#p10-text', {
-    opacity: 0
-  }, '<')
-  .from('#p11-text', {
-    opacity: 0
-  })
-  .from('#p11-cloud1-svg', {
-    opacity: 0
-  }, '<')
-  .from('#p11-cloud2-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p11-cloud1-svg', {
-    x: -350
-  })
-  .to('#p11-cloud2-svg', {
-    x: 350,
-  }, '<')
-  .from('#p11-aurora-svg', {
-    opacity: 0
-  })
-  .to('#p11-aurora-svg', {
-    opacity: 0
-  })
-  .to('#p11-cloud1-svg', {
-    opacity: 0
-  })
-  .to('#p11-cloud2-svg', {
-    opacity: 0
-  }, '<')
-  .to('#p11-text', {
-    opacity: 0
-  }, '<')
-  .from('#p12-camera-svg', {
-    opacity: 0,
-    y: 100
-  })
-  .from('#p12-text', {
-    opacity: 0,
-  }, '<')
+  // --- your animations unchanged ---
+  .to('#landing-h1', { opacity: 0 })
+  .to('#p1-lira-svg', { bottom: 0, left: '40%' },'<')
+  .to('#p1-text', { opacity: 1 })
+  .to('#p1-lira-cam-svg', { opacity: 1 },'<')
+  .from('#p1-sun-svg', { opacity: 0, y: 100 })
+  .from('#p1-rain-svg', { opacity: 0, y: 100 })
+  .to('#p1-sun-svg', { opacity: 0, y: -100 }, '<')
+  .to('#p1-rain-svg', { opacity: 0, y: -100 })
+  .from('#p1-stars-svg', { opacity: 0, y: 100 }, '<')
+  .to('#p1-text', { opacity: 0 })
+  .to('#p1-lira-svg', { opacity: 0 }, '<')
+  .to('#p1-lira-cam-svg', { opacity: 0 }, '<')
+  .to('#p1-stars-svg', { opacity: 0 }, '<')
+  .from('#p2-text', { opacity: 0 })
+  .from('#p2-book-svg', { opacity: 0 }, '<')
+  .from('#p2-tv-svg', { opacity: 0 }, '<')
+  .to('#p2-book-svg', { opacity: 0 })
+  .to('#p2-tv-svg', { scale: 1.3, x: -100 }, '<')
+  .to('#p2-tv-svg', { opacity: 0 })
+  .to('#p2-text', { opacity: 0 }, '<')
+  .from('#p4-sun-svg', { opacity: 0 })
+  .from('#p4-text', { opacity: 0 }, '<')
+  .from('#p4-earth-svg', { opacity: 0 }, '<')
+  .to('#p4-text', { opacity: 0 })
+  .to('#p4-earth-svg', { opacity: 0 })
+  .to('#p4-sun-svg', { scale: 1.2, x: 200 }, '<')
+  .from('#p5-text', { opacity: 0 }, '<')
+  .to('#p5-text', { opacity: 0 })
+  .from('#p6-text', { opacity: 0 })
+  .to('#p4-sun-svg', { opacity: 0 })
+  .to('#p4-earth-svg', { opacity: 1, scale: 1.2, x: -200 }, '<')
+  .to('#p6-text', { opacity: 0 })
+  .to('#p4-earth-svg', { opacity: 0 }, '<')
+  .from('#p7-text', { opacity: 0 })
+  .from('#p7-tv-svg', { opacity: 0 }, '<')
+  .to('#p7-tv-svg', { opacity: 0 })
+  .to('#p7-text', { opacity: 0 }, '<')
+  .from('#p8-luggage-svg', { opacity: 0 })
+  .from('#p8-hand-svg', { x:-100, y:-100, opacity: 0 }, '<')
+  .from('#p8-text', { opacity: 0 }, '<')
+  .to('#p8-luggage-svg', { opacity: 0 })
+  .to('#p8-hand-svg', { opacity: 0 }, '<')
+  .from('#p8-plane-svg', { opacity: 0 }, '<')
+  .from('#p8-cloud1-svg', { opacity: 0 }, '<')
+  .from('#p8-cloud2-svg', { opacity: 0 }, '<')
+  .to('#p8-cloud1-svg', { x: -100, opacity: 0 })
+  .to('#p8-cloud2-svg', { x: -300, opacity: 0 }, '<')
+  .to('#p8-text', { opacity: 0 })
+  .from('#p9-text', { opacity: 0 })
+  .to('#p8-plane-svg', { scale: 0.8, y: 50 }, '<')
+  .from('#p9-signal1-svg', { opacity: 0 })
+  .to('#p9-signal1-svg', { opacity: 0 })
+  .from('#p9-signal2-svg', { opacity: 0 }, '<')
+  .to('#p8-plane-svg', { opacity: 0 })
+  .to('#p9-signal2-svg', { opacity: 0 }, '<')
+  .from('#p9-alley-svg', { opacity: 0 }, '<')
+  .to('#p9-alley-svg', { opacity: 0 })
+  .to('#p9-text', { opacity: 0 }, '<')
+  .from('#p10-text', { opacity: 0 })
+  .from('#p10-light-svg', { opacity: 0 }, '<')
+  .to('#p10-light-svg', { opacity: 0 })
+  .to('#p10-no-light-svg', { opacity: 1 }, '<')
+  .to('#p10-no-light-svg', { opacity: 0 })
+  .to('#p10-text', { opacity: 0 }, '<')
+  .from('#p11-text', { opacity: 0 })
+  .from('#p11-cloud1-svg', { opacity: 0 }, '<')
+  .from('#p11-cloud2-svg', { opacity: 0 }, '<')
+  .to('#p11-cloud1-svg', { x: -350 })
+  .to('#p11-cloud2-svg', { x: 350 }, '<')
+  .from('#p11-aurora-svg', { opacity: 0 })
+  .to('#p11-aurora-svg', { opacity: 0 })
+  .to('#p11-cloud1-svg', { opacity: 0 })
+  .to('#p11-cloud2-svg', { opacity: 0 }, '<')
+  .to('#p11-text', { opacity: 0 }, '<')
+  .from('#p12-camera-svg', { opacity: 0, y: 100 })
+  .from('#p12-text', { opacity: 0 }, '<')
 }
 
 function initLenisSmoothScroll(){
   const lenis = new Lenis();
-  // Synchronize Lenis scrolling with GSAP's ScrollTrigger plugin
   lenis.on('scroll', ScrollTrigger.update);
-
-  // Add Lenis's requestAnimationFrame (raf) method to GSAP's ticker
-  // This ensures Lenis's smooth scroll animation updates on each GSAP tick
   gsap.ticker.add((time) => {
-    lenis.raf(time * 1000); // Convert time from seconds to milliseconds
+    lenis.raf(time * 1000);
   });
-  // Disable lag smoothing in GSAP to prevent any delay in scroll animations
   gsap.ticker.lagSmoothing(0);
 }
-
 
 function App() {
   gsap.registerPlugin(ScrollTrigger);
   gsap.registerPlugin(useGSAP);
 
-  initLenisSmoothScroll();  //integrates with gsap
-
+  initLenisSmoothScroll();  
   useGSAP(fullAnimationTimeline)
-  
+
+  // --- AUDIO STATE ---
+  const [isMuted, setIsMuted] = useState(false); // default: unmuted
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  // Autoplay audio on load
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.play().catch(() => {
+        console.log("Autoplay blocked by browser, will play on first user interaction.");
+      });
+    }
+  }, []);
+
+  const handleToggleAudio = () => {
+    if (!audioRef.current) return;
+    audioRef.current.muted = !audioRef.current.muted;
+    setIsMuted(audioRef.current.muted);
+  };
 
   return (
     <>
       <ReactLenis root />
 
+      {/* Background Music */}
+      <audio 
+        id="bg-audio" 
+        ref={audioRef} 
+        src="src/assets/msc/space-bg-music.mp3" 
+        loop 
+        autoPlay
+      />
+
       <div id="animation-container">
+        {/* Audio Button */}
+        <button id='audio-btn' onClick={handleToggleAudio}>
+          <img 
+            src={isMuted ? 'src/assets/audio-img/muted.png' : 'src/assets/audio-img/unmute.png'} 
+            id='unmute-audio-btn' 
+            alt="Audio Button" 
+          />
+        </button>
+
+        {/* your svgs unchanged */}
         <img id="p1-lira-svg" src='src/assets/p1/lira.svg'></img>
         <img id="p1-lira-cam-svg" src="src/assets/p1/lira-cam.svg"></img>
         <img id="p1-sun-svg" src="src/assets/p1/sun.svg"></img>
@@ -379,7 +242,6 @@ function App() {
         My dream had finally come true.
         </p>
       </div>
-
     </>
   )
 }
