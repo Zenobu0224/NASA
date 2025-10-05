@@ -289,6 +289,17 @@ function initLenisSmoothScroll(){
   gsap.ticker.lagSmoothing(0);
 }
 
+function handleMouseLeave() {
+  gsap.to('#cursor-follower', {
+    opacity: 0
+  })
+}
+
+function handleMouseEnter() {
+  gsap.to('#cursor-follower', {
+    opacity: 1
+  })
+}
 
 function App() {
   gsap.registerPlugin(ScrollTrigger);
@@ -298,13 +309,20 @@ function App() {
 
   useGSAP(fullAnimationTimeline)
   useEffect(() => {
-    let cursor = document.getElementById("cursor-follower");
-
-    if(cursor){
-      window.addEventListener('mousemove', (e) => {
-        cursor.top = 6
+    const handleMouse = (e) => {
+      const {clientX, clientY} = e;
+      gsap.to('#cursor-follower', {
+        x: clientX,
+        y: clientY
       })
-    }
+    };
+
+    window.addEventListener('mousemove', handleMouse)
+    
+    return () => {
+      window.removeEventListener('mousemove', handleMouse)
+    };
+
     })
   
 
@@ -313,7 +331,7 @@ function App() {
       <ReactLenis root />
       <div id="cursor-follower"></div>
 
-      <div id="animation-container">
+      <div id="animation-container" onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter}>
         <img id="p1-lira-svg" src='src/assets/p1/lira.svg'></img>
         <img id="p1-lira-cam-svg" src="src/assets/p1/lira-cam.svg"></img>
         <img id="p1-sun-svg" src="src/assets/p1/sun.svg"></img>
