@@ -13,7 +13,6 @@ function fullAnimationTimeline(){
       start: 'top',
       end: "96.29%",
       scrub: true,
-      markers: true,
       invalidateOnRefresh: true
     }
   })
