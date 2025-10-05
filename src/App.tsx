@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ReactLenis } from 'lenis/react'
 import Lenis from 'lenis'
 import { gsap } from 'gsap'
@@ -11,7 +11,7 @@ function fullAnimationTimeline(){
     scrollTrigger: {
       trigger: 'body',
       start: 'top',
-      end: "96%",
+      end: "96.29%",
       scrub: true,
       markers: true,
       invalidateOnRefresh: true
@@ -199,7 +199,7 @@ function fullAnimationTimeline(){
   }, '<')
   .from('#p9-alley-svg', {
     opacity: 0
-  }, '<')
+  })
   .to('#p9-alley-svg', {
     opacity: 0
   })
@@ -261,6 +261,18 @@ function fullAnimationTimeline(){
   .from('#p12-text', {
     opacity: 0,
   }, '<')
+  .to('#p12-text', {
+    opacity: 0,
+  })
+  .to('#p12-camera-svg', {
+    opacity: 0,
+  }, '<')
+  .from('#p13-text', {
+    opacity: 0
+  })
+  .from('#p13-living-room-svg', {
+    opacity: 0
+  }, '<')
 }
 
 function initLenisSmoothScroll(){
@@ -285,11 +297,21 @@ function App() {
   initLenisSmoothScroll();  //integrates with gsap
 
   useGSAP(fullAnimationTimeline)
+  useEffect(() => {
+    let cursor = document.getElementById("cursor-follower");
+
+    if(cursor){
+      window.addEventListener('mousemove', (e) => {
+        cursor.top = 6
+      })
+    }
+    })
   
 
   return (
     <>
       <ReactLenis root />
+      <div id="cursor-follower"></div>
 
       <div id="animation-container">
         <img id="p1-lira-svg" src='src/assets/p1/lira.svg'></img>
@@ -324,6 +346,9 @@ function App() {
         <img id="p11-aurora-svg" src="src/assets/p11/aurora.svg"></img>
 
         <img id="p12-camera-svg" src="src/assets/p12/camera.svg"></img>
+
+        <img id="p13-living-room-svg" src="src/assets/p13/living-room.svg"></img>
+        
       </div>
 
       <div id="text-container">
@@ -377,6 +402,12 @@ function App() {
         I lifted my camera, my heart beating fast, and clicked — once, twice, again and again.
         Each photograph captured a story of sunlight turned into color, of science transformed into wonder.
         My dream had finally come true.
+        </p>
+        <p id='p13-text'>
+        Now, whenever I look at my photos, I remember that space weather is more than just science. It is the Sun’s heartbeat, reaching across space to touch our world.
+        It can silence radios, turn off lights, and push satellites from their paths.
+        But it also gifts us the most magical sights — proof that even in the vastness of space, the Sun and Earth are dancing together.
+        And as long as the Sun shines, the auroras will return painting the night with stories written in light.
         </p>
       </div>
 
