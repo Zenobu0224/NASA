@@ -293,7 +293,6 @@ p {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
 #cursor-follower {
   position: absolute;
   width: 1000px;
@@ -316,8 +315,8 @@ p {
 @media (pointer: coarse) {
   #cursor-follower{
     display: none
-  }
-=======
+}
+}
 #audio-btn {
   cursor: pointer;
   position: absolute;
@@ -332,5 +331,4 @@ p {
 #audio-btn:active {
   box-shadow: none;
   transform: translate(2px, 2px);
->>>>>>> d084cd780bd90a3ebe79f47678fa1045e182ec90
 }
